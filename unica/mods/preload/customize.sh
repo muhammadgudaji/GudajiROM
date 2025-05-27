@@ -12,7 +12,7 @@ DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.clockpackage
 
 # Samsung Internet
 DOWNLOAD_APK "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.sbrowser")" \
-     "SBrowser/SBrowser.apk" 
+    "$WORK_DIR/system/system/preload/SBrowser/SBrowser.apk"
 
 # Samsung Voice Recorder
 DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.voicenote")" \
