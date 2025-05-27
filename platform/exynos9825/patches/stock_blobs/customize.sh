@@ -1,14 +1,13 @@
 # S24+ OneUI 7 -> SoundBooster 2000
-# N10 Series -> SoundBooster 1050
+# S9 Series -> SoundBooster 900
 echo "Replacing SoundBooster"
-DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2000.so"
-ADD_TO_WORK_DIR "p3sxxx" "system" "system/lib64/lib_SoundBooster_ver1050.so" 0 0 644 "u:object_r:system_lib_file:s0"
-ADD_TO_WORK_DIR "p3sxxx" "system" "system/lib64/libsamsungSoundbooster_plus_legacy.so" 0 0 644 "u:object_r:system_lib_file:s0"
-
+DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2060.so"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/lib_SoundBooster_ver900.so" 0 0 644 "u:object_r:system_lib_file:s0"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libsamsungSoundbooster_plus_legacy.so" 0 0 644 "u:object_r:system_lib_file:s0"
 echo "Replacing GameDriver"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/GameDriver-EX2400"
-ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/priv-app/GameDriver-EX9825/GameDriver-EX9825.apk" 0 0 644 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/priv-app/DevGPUDriver-EX9825/DevGPUDriver-EX9825.apk" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/priv-app/GameDriver-EX9810/GameDriver-EX9810.apk" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/priv-app/DevGPUDriver-EX9810/DevGPUDriver-EX9810.apk" 0 0 644 "u:object_r:system_file:s0"
 
 MODEL=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 1)
 REGION=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 2)
@@ -30,7 +29,7 @@ echo "Adding 32-Bit WFD blobs"
 ADD_TO_WORK_DIR "p3sxxx" "system" "system/bin/remotedisplay" 0 2000 755 "u:object_r:remotedisplay_exec:s0"
 ADD_TO_WORK_DIR "p3sxxx" "system" "system/lib" 0 0 644 "u:object_r:system_lib_file:s0"
 
-# Needs to be adapted for d2s
+# Needs to be adapted for crown/9810
 # echo "Adding stock NFC Case features"
 # ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.sec.feature.cover.sview.xml" 0 0 644 "u:object_r:system_file:s0"
 # ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.sec.feature.cover.xml" 0 0 644 "u:object_r:system_file:s0"
