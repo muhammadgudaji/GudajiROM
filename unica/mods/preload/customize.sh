@@ -10,10 +10,6 @@ DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.popupcalcula
 DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.clockpackage")" \
     "$WORK_DIR/system/system/preload/ClockPackage/ClockPackage.apk"
 
-# Samsung Internet
-DOWNLOAD_APK "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.sbrowser")" \
-    "$WORK_DIR/system/system/preload/SBrowser/SBrowser.apk"
-
 # Samsung Voice Recorder
 DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.voicenote")" \
     "$WORK_DIR/system/system/preload/VoiceNote_5.0/VoiceNote_5.0.apk"
