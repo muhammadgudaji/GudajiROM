@@ -9,25 +9,34 @@
 <p align="center">
   <a href="https://t.me/unicarom">💬 Telegram</a>
   •
-  <a href="https://xdaforums.com/t/port-rom-14-eternityrom-v4-0-oneui-6-1-1-for-n10-s10-series.4670331/">🚀 XDA</a>
-</p>
 
-# What is EternityROM?
-EternityROM is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
-It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip/tar package for the specified target device.
+# What is GudajiROM?
+GGudajiROM is a private, unofficial custom ROM project for Samsung Galaxy devices, focused on delivering a clean, optimized experience built on the latest One UI firmware. It primarily targets Exynos 9810 platforms and is powered by a customized variant of the UN1CA build system.
 
-Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
+This ROM automates firmware extraction, patching, and image building into flashable packages — but remains a personal project, not intended for wide distribution.
+
+🔒 Disclaimer: This is an unofficial fork of UN1CA. Please do not disturb the original authors or contributors for help, issues, or support related to this ROM.
+
+
+🙏 Credits
+Special thanks to the people and projects this ROM builds upon:
+
+ExtremeXT – Desixtification, core patching logic
+
+UN1CA Project – Build system foundation
+
+Cornshiba- 9810 base
+
+ocin4ver – Patch and platform reference
 
 # Supported Devices
-- Note 10:
-  - d1 - N970F
-- Note 10 5G:
-  - d1xks - N971N
-- Note10+:
-  - d2s - N975F
-- Note10+ 5G:
-  - d2x - N976B
-  - d2xks - N976N
+- Note 9:
+   crownlte
+  # coming soon
+   S9:
+   starlte
+   S9 Plus:
+   star2lte
 
 # Features
 - Based on the latest stable OneUI 7 Galaxy S24+ firmware
