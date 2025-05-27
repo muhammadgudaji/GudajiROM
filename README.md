@@ -11,12 +11,13 @@
   •
 
 # What is GudajiROM?
-GGudajiROM is a private, unofficial custom ROM project for Samsung Galaxy devices, focused on delivering a clean, optimized experience built on the latest One UI firmware. It primarily targets Exynos 9810 platforms and is powered by a customized variant of the UN1CA build system.
+GudajiROM is a private, unofficial custom ROM project for Samsung Galaxy devices, focused on delivering a clean, optimized experience built on the latest One UI firmware. It primarily targets Exynos 9810 platforms and is powered by a customized variant of the UN1CA build system.
 
 This ROM automates firmware extraction, patching, and image building into flashable packages — but remains a personal project, not intended for wide distribution.
 
 🔒 Disclaimer: This is an unofficial fork of UN1CA. Please do not disturb the original authors or contributors for help, issues, or support related to this ROM.
-
+ 
+ TO ALL THE PEOPLE WHO CONRTIBUTED TO THIS PROJECT AND THEIR NAME WASNT MENTIONED AND FEEL THAT THIS PROJECT IS KANGED, PLEASE YOU CAN ALWAYS TELL ME SO, I HAVE NO MEANS OR INENTIONS OF KANGINGING THIS OR WHATSOVER, THANKS FOR UNDERSTANDING.
 
 🙏 Credits
 Special thanks to the people and projects this ROM builds upon:
@@ -35,6 +36,7 @@ ocin4ver – Patch and platform reference
   # coming soon
    S9:
    starlte
+
    S9 Plus:
    star2lte
 
