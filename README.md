@@ -4,7 +4,7 @@
   <a href="https://github.com/Ocin4ever/EternityROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Ocin4ever/EternityROM?style=for-the-badge"/></a>
   <a href="https://github.com/Ocin4ever/EternityROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/Ocin4ever/EternityROM?style=for-the-badge"/></a>
 </p>
-<p align="center">EternityROM is a work-in-progress custom firmware for Samsung Galaxy Note10 series (Exynos).</p>
+<p align="center">GudajiROM is a private work-in-progress custom firmware for Samsung Galaxy s9/N9 series (Exynos).</p>
 
 <p align="center">
   <a href="https://t.me/unicarom">💬 Telegram</a>
