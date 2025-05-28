@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/Ocin4ever/EternityROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/Ocin4ever/EternityROM?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/Ocin4ever/EternityROM/fifteen?style=for-the-badge"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Ocin4ever/EternityROM?style=for-the-badge"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/Ocin4ever/EternityROM?style=for-the-badge"/></a>
-</p>
 <p align="center">GudajiROM is a private work-in-progress custom firmware for Samsung Galaxy s9/N9 series (Exynos).</p>
 
 <p align="center">
@@ -22,13 +16,13 @@ This ROM automates firmware extraction, patching, and image building into flasha
 🙏 Credits
 Special thanks to the people and projects this ROM builds upon:
 
-ExtremeXT – Desixtification, core patching logic
+ExtremeXT  
 
-UN1CA Project – Build system foundation
+Cornshiba
 
-Cornshiba- 9810 base
+ocin4ver
 
-ocin4ver – Patch and platform reference
+UN1CA
 
 # Supported Devices
 - Note 9:
@@ -47,7 +41,6 @@ ocin4ver – Patch and platform reference
 - Partially DeKnoxed
 - Full SELinux Support
 - Full Galaxy AI support
-- Completely upstreamed kernels 4.14
 - High end animations
 - Native/live blur support
 - Adaptive color tone support
