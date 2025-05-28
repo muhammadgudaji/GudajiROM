@@ -1,6 +1,6 @@
 # S24+ OneUI 7 -> SoundBooster 2000
-# S9 Series -> SoundBooster 900
-# Needs to be adapted for crown/9810
+# S9 Series -> SoundBooster 950
+# Needs to be manually placed in folder, as our target firmware is N10Lite, which isn't 9810 default SoundBooster 
 #echo "Replacing SoundBooster"
 #DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2060.so"
 #ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/lib_SoundBooster_ver900.so" 0 0 644 "u:object_r:system_lib_file:s0"
