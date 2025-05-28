@@ -1,7 +1,7 @@
 <p align="center">GudajiROM is a private work-in-progress custom firmware for Samsung Galaxy s9/N9 series (Exynos).</p>
 
 <p align="center">
-  <a href="https://t.me/unicarom">💬 Telegram</a>
+  <a href="https://t.me/muhammadgudaji">💬 Telegram</a>
   •
 
 # What is GudajiROM?
