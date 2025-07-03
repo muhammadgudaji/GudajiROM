@@ -1,0 +1,4 @@
+lib/lib64 fixes for crownlte comming soon, 
+bugs:
+camera broken
+headphone jack broken
